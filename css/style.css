@@ -1,0 +1,257 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+	min-height: 800px;
+    background-image: url("../images/bg-center.jpg");
+    background-color: #55b909;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #589ae6;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+    a:hover {
+        background-color: #589ae6;
+        color: white;
+    }
+
+#navbar-iframe { /* Blogger NavBar */
+    display: none !important;
+}
+
+#page-bg-header {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/bg-header.jpg");
+    background-repeat: repeat-x;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -666;
+}
+
+#page-wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#page-logo {
+    background-image: url("../images/logo.png");
+    z-index: 2;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 20px;
+    left: inherit;
+}
+
+#page-title {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    padding: 20px 0 20px 160px;
+    height: 40px;
+    text-decoration: none;
+    display: block;
+}
+
+    #page-title:hover {
+        text-shadow: 1px 1px 2px #444;
+        color: #fafffa;
+        background-color: transparent;
+    }
+
+#page-body {
+    background-color: white;
+    width: 930px;
+    float: right;
+    border-radius: 10px;
+    border:  2px solid #35a19c;
+    overflow: visible;
+    background-image: url("../images/page-body-bg.png");
+}
+
+    #page-description {
+        min-height: 60px;
+        width: 480px;
+        padding: 10px 5px 10px 120px;
+        color: #7ea5d1;
+        font-size: 0.9em;
+    }
+
+    #page-content {
+        width: 590px;
+        float: left;
+        padding: 10px 10px 10px 20px;
+        background-image: url("../images/page-content-bg.png");
+        border-radius: 0 0 0 10px;
+    }
+
+    #page-sidebar {
+        width: 300px;
+        float: right;
+        padding: 20px 0;
+    }
+
+        #page-sidebar h2 {
+            font-size: 1.2em;
+            color: #589ae6;
+            margin: 5px 0;
+        }
+
+        #page-sidebar a.feed-posts,
+        #page-sidebar a.feed-comments {
+            background-repeat: no-repeat;
+            background-position: 5px center;
+            padding: 8px 8px 8px 42px;
+        }
+
+            #page-sidebar a.feed-posts {
+                background-image: url("../images/feed-posts.png");
+            }
+
+                #page-sidebar a.feed-posts:hover {
+                    background-color: #f59b2d;
+                }
+
+            #page-sidebar a.feed-comments {
+                background-image: url("../images/feed-comments.png");
+            }
+
+                #page-sidebar a.feed-comments:hover {
+                    background-color: #A3D913;
+                }
+
+#page-footer {
+    width: 100%;
+    padding: 20px 0 50px 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+    #page-footer h2 {
+        font-size: 1.2em;
+        color: #666;
+    }
+
+    #page-footer > div.footer-block {
+        padding: 10px;
+        border-radius: 10px;
+        margin: 8px;
+        min-height: 300px;
+        background-color: #ffe184;
+        display: inline;
+        display: inline-block;
+        float: left;
+        border: 2px solid white;
+    }
+
+        #page-footer > div.footer-block.block-0 {
+            width: 300px;
+            background-color: #d9de9b;
+            background-color: rgba(217, 222, 139, 0.8);
+            border-color: #d9de9b;
+            background-image: url("../images/footer-block-0.png");
+        }
+
+        #page-footer > div.footer-block.block-1 {
+            width: 180px;
+            background-color: #c19bde;
+            background-color: rgba(182, 139, 214, 0.8);
+            border-color: #c19bde;
+            background-image: url("../images/footer-block-1.png");
+        }
+
+        #page-footer > div.footer-block.block-2 {
+            width: 320px;
+            background-color: #9bd9de;
+            background-color: rgba(139, 209, 214, 0.8);
+            border-color: #9bd9de;
+            background-image: url("../images/footer-block-2.png");
+        }
+
+
+
+#vkwidget1 { /* Виджет Мы Вконтакте */
+    border-radius: 5px;
+    min-height: 290px;
+}
+
+
+/* Сообщения блога */
+.widget.Blog .date-header {
+    background-color: #ebff35;
+    background-color: rgba(235, 255, 53, 0.9);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 1px #666666;
+    color: #888888;
+    font-size: 0.8em;
+    font-weight: normal;
+    left: -70px;
+    padding: 5px;
+    position: absolute;
+}
+
+.widget.Blog .date-posts {
+    padding-top: 40px;
+}
+
+    .widget.Blog .post-title {
+        color: #54B609;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+        .widget.Blog .post-title > a {
+            color: #54B609;
+            padding: 3px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+            .widget.Blog .post-title > a:hover {
+                background-color: #54B609;
+                color: white;
+            }
+
+    .widget.Blog > .blog-posts > .date-outer {
+        border-bottom: 1px solid #666666;
+        margin-bottom: 60px;
+    }
+
+    .widget.Blog .jump-link {
+        float: right;
+    }
+
+    .widget.Blog .post-labels {
+        color: #333;
+        font-size: 0.9em;
+    }
+
+    .widget.Blog .post-footer {
+        padding-left: 20px;
+    }
+
+    .widget.Blog .post-body img.thumb {
+        float: left;
+        padding: 10px;
+        max-width: 200px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin: 0 10px 0 0;
+    }
+
+/* Количество постов по ссылке (с скобках) */
+.widget.Label, .widget.BlogArchive li > span {
+    color: #999;
+}
